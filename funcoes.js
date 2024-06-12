@@ -58,3 +58,5 @@ const nome = "Nathalya";
 
 let idade = 123;
 console.log(idade);
+
+module.exports = soma;
