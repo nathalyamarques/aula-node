@@ -2,6 +2,8 @@ const fs = require("fs");
 const pessoa = require('./json').nome;
 
 console.log("antes da função")
+
+//função
 fs.writeFile("aula.txt", "aula de node", function(erro)
 {
     if(erro){
@@ -12,6 +14,7 @@ fs.writeFile("aula.txt", "aula de node", function(erro)
 });
 console.log("depois da função");
 
+//função
 fs.readFile("json.js", "utf-8", function(erro, dados){
     console.log(dados);
 });
